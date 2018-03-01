@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #F2FFFC;
+	font-family: Crimson Text, Arial, serif;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+.titulo-principal {
+	color: white;
+	background-color: #851944;
+	padding: 25px;
+	text-align: center;
+	border-bottom: solid black 10px;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+.font-titulos {
+	font-family: "Open Sans Condensed", Times New Roman, sans-serif;
+}
+
+.subtitulos {
+	font-size: 30px;
+	clear: both;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+p {
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+main {
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+.minha-foto, aside {
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+	box-sizing: border-box;
+}
+
+.minha-foto {
+	height:45%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+aside {
+	/* 	position:fixed; */
+	/* 	right:0; */
+	/* 	top:310px; */
+	position: absolute;
+	top: 45%;
+	right: 0;
+}
+
+footer, aside {
+	padding: 20px;
+}
+
+.navegacao {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+}
+
+.navLinks {
+	color: inherit;
+	text-transform: lowercase;
+}
+
+.lista-navegacao {
+	list-style-type: none;
+}
+
+.social li {
+	display: inline-block;
+}
+
+#rodape-pagina {
+	background-color: black;
+	color: white;
+	padding: 8px;
+	clear: both;
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+}
+
+.textos {
+	width: 720px;
+	margin: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.links {
+	color: #851944;
+	text-decoration: none;
+}
+a{
+		font-family: "Open Sans Condensed", sans-serif;
+		text-decoration: none;
+}
+.social a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-indent: -99999px;
+}
+
+#github {
+	background-image:
+		url(C:/Users/Leo/eclipse-workspace/HelloSite/WebContent/imgs/github.png);
+}
+
+#twitter {
+	background-image:
+		url(C:/Users/Leo/eclipse-workspace/HelloSite/WebContent/imgs/twitter.png);
+}
+
+#linkedin {
+	background-image:
+		url(C:/Users/Leo/eclipse-workspace/HelloSite/WebContent/imgs/linkedin.png);
+}

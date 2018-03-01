@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+.postagens {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+.leia-mais-link {
+	font-size: 24px;
+	display: block;
+	text-align: center;
+	background-color: #f6eef7;
+	color: #422046;
+	padding: 8px;
+	margin: 16px;
+	text-decoration: none;
+}
